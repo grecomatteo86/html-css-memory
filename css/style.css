@@ -22,10 +22,18 @@ body{
   padding: 5px;
 }
 
+.row{
+  width: 652px;
+  margin: auto;
+}
+
 .card{
   width: 140px;
   height: 180px;
   border-radius: 15px;
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
 }
 
 .texture{
@@ -34,14 +42,24 @@ body{
   border-radius: 15px;
 }
 
-.balloon{
+.side-b{
+  display: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.picture{
   height: 80%;
 }
 
 p{
-  font-size: 25px;
-  width: 110px;
   height: 20%;
+  font-size: 25px;
   margin: auto;
   color: rgb(228, 32, 134);
 }
@@ -54,11 +72,18 @@ p{
   display: block;
 }
 
-.side-b{
-  display: none;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-  background-color: white;
-  padding: 10px;
+#air-balloon{
+  width: 110px;
+}
+
+#bicyle{
+  width: 67px;
+}
+
+#cruise{
+  width: 113px;
+}
+
+#submarine{
+  width: 104px;
 }
