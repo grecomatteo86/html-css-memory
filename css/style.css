@@ -108,3 +108,7 @@ p{
 #tram{
   width: 60px;
 }
+
+#discovered{
+  display: block;
+}
