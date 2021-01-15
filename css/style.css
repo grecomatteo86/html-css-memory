@@ -32,20 +32,16 @@ body{
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  background-size: cover;
 }
 
 .balloon{
-  width: 100%;
-  height: 100%;
-  display: none;
-  background-color: white;
+  height: 80%;
 }
 
 p{
-  display: none;
   font-size: 25px;
   width: 110px;
+  height: 20%;
   margin: auto;
   color: rgb(228, 32, 134);
 }
@@ -54,17 +50,15 @@ p{
   display: none;
 }
 
-.card:hover .balloon{
-  display: block;
-}
-
-.card:hover p{
+.card:hover .side-b{
   display: block;
 }
 
 .side-b{
-  max-width: 140px;
-  max-height: 180px;
+  display: none;
+  width: 100%;
+  height: 100%;
   border-radius: 15px;
   background-color: white;
+  padding: 10px;
 }
