@@ -22,9 +22,15 @@ body{
   padding: 5px;
 }
 
-.row{
+main{
   width: 652px;
+  height: 610px;
   margin: auto;
+  margin-top: 10px;
+}
+
+.row{
+  margin-bottom: 20px;
 }
 
 .card{
@@ -86,4 +92,12 @@ p{
 
 #submarine{
   width: 104px;
+}
+
+#tractor{
+  width: 82px;
+}
+
+#tram{
+  width: 60px;
 }
