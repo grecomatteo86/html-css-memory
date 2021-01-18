@@ -85,27 +85,27 @@ p{
   line-height: 50px;
 }
 
-#air-balloon{
+.air-balloon{
   width: 110px;
 }
 
-#bicyle{
+.bicyle{
   width: 67px;
 }
 
-#cruise{
+.cruise{
   width: 113px;
 }
 
-#submarine{
+.submarine{
   width: 104px;
 }
 
-#tractor{
+.tractor{
   width: 82px;
 }
 
-#tram{
+.tram{
   width: 60px;
 }
 
