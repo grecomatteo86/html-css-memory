@@ -15,11 +15,10 @@ body{
 
 .main-title{
   color: white;
-  margin: auto;
   font-size: 60px;
-  width: 340px;
-  margin: auto;
   padding: 5px;
+  text-align: center;
+  letter-spacing: 5px
 }
 
 main{
